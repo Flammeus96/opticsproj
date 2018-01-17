@@ -4,3 +4,33 @@ html {
   font-size: 18px;
   line-height: 1.4;
 }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+nav {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+div .menu {
+  display: flex;
+  justify-content: right;
+}
