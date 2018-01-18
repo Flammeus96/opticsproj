@@ -3,6 +3,7 @@
 html {
   font-size: 18px;
   line-height: 1.4;
+  font-family: Helvetica;
 }
 
 .container {
@@ -17,6 +18,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
 }
 
 nav {
@@ -26,7 +29,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 nav div {
@@ -34,7 +36,45 @@ nav div {
   align-items: center;
 }
 
+header img {
+  max-height: 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.truncated-menu {
+  display: none;
+}
+
 .menu ul {
   display: flex;
   flex-direction: row;
+}
+
+li {
+  padding: 1rem 2rem 1rem 0;
+}
+
+.main-banner {
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  background-color: white;
+  font-size: 2rem;
+  padding: 1.5rem 5rem;
+}
+
+.main-banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
 }
