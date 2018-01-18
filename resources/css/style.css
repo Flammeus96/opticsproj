@@ -12,12 +12,21 @@ html {
 
 /* Header */
 
+header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 nav {
   background-color: cadetblue;
   color: white;
   font-size: 1rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
 }
 
 nav div {
@@ -28,9 +37,4 @@ nav div {
 .menu ul {
   display: flex;
   flex-direction: row;
-}
-
-div .menu {
-  display: flex;
-  justify-content: right;
 }
